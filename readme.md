@@ -5,6 +5,9 @@ A su vez, la clase es polimórfica y se puede instanciar indicando los títulos 
 
 ![Salida terminal](./out.png)
 
+### Instalación
+
+`$pip install colorin`
 
 ### Uso de la Clase
 
@@ -66,21 +69,21 @@ Para usar la clase para mostrar la tabla, instanciar la clase con los campos de 
 Por supuesto, se puede dar color y formato a los campos, salvo a los de cabecera que por defecto tiene efecto *bold*.
 
 `class colorin([lista])`   
-Lista de los títulos de la cabecera
+Devuelve lista de los títulos de cabecera de tabla.
 
 > `.add_row([lista])`     
 > Agrega fila con el contenido de los campos. No superar el número de campos de la cabecera.
 > `._printTable()`   
-> Imprime la tabla generada
+> Imprime la tabla generada.
 >
 > `._header()`     
-> Devuelve lista de campos de la cabaecera
+> Devuelve lista de campos de la cabaecera.
 >
 > `._rows()`     
-> Devuelve lista de los campos de las filas
+> Devuelve lista de los campos de las filas.
 >
 > `._len_header()`     
-> Devuelve lista de enteros con los tamaños de las columnas
+> Devuelve lista de enteros con los tamaños de las columnas.
 
 ```python
 # -*- coding: utf-8 -*-
