@@ -70,7 +70,6 @@ Lista de los títulos de la cabecera
 
 > `.add_row([lista])`     
 > Agrega fila con el contenido de los campos. No superar el número de campos de la cabecera.
-
 > `._printTable()`   
 > Imprime la tabla generada
 >
