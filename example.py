@@ -10,7 +10,7 @@ col.add_row(['Huddersfield', col._yellow('Yorkshire', 'it'), '01484', 146234])
 col.add_row(['Carlisle', col._yellow('Cumbria', 'it'), '01228', col._red(103700)])
 col.add_row(['Brighton', col._yellow('East Sussex', 'it'), '01273', 155919])
 
-print(col._printTable())
+print(col.showTable())
 
 print (col._blue("Texto en azul, formato por defecto"))
 print (col._red("Texto en rojo, cursiva" , 'it'))
